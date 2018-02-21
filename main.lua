@@ -27,8 +27,8 @@ local function doingTheMath(event)
 	diameter = tonumber(diameterBox.text)
 	areaMath = (3.14)*(diameter/2)^2
 	circumferenceMath = 2*(3.14)*(diameter/2)
-	local areaCircle = display.newText('Area: '.. areaMath, 512, 900, native.SystemFont, 100)
-	local circumferenceCircle = display.newText('Circumference: '.. circumferenceMath, 1536, 900, native.SystemFont, 100)
+	local areaCircle = display.newText('Area: '.. areaMath..'m^2', 512, 900, native.SystemFont, 100)
+	local circumferenceCircle = display.newText('Circumference: '.. circumferenceMath..'m', 1536, 900, native.SystemFont, 100)
 
 
 	return true
